@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660211931025",
+    "firebase_url": "https://dogly---dog-adoption.firebaseio.com",
+    "project_id": "dogly---dog-adoption",
+    "storage_bucket": "dogly---dog-adoption.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660211931025:android:7181980eb3f9d927f4ec30",
+        "android_client_info": {
+          "package_name": "com.hit.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660211931025-k260m500sqhgg8m6c5ss6j4567u9dm1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hit.project",
+            "certificate_hash": "92bbfb151dbc950ad44bf5b522348812b4dad323"
+          }
+        },
+        {
+          "client_id": "660211931025-t5cspj8mcault39esrr12bljija1f0pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAObqWjiCSqIrMajcJybbHLbvMkbKKfoOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660211931025-t5cspj8mcault39esrr12bljija1f0pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

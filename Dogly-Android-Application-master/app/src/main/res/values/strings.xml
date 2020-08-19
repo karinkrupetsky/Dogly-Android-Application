@@ -1,0 +1,494 @@
+<resources>
+    <string name="app_name">Dogly - Dog adoption</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_myads">My Ads</string>
+    <string name="menu_notif_settings">Notifications</string>
+    <string name="menu_signout">Sign-out</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Repeat Password</string>
+    <string name="prompt_name">Display Name</string>
+    <string name="prompt_title">Title</string>
+    <string name="free_text">Free Text</string>
+    <string name="location">Location</string>
+    <string name="dog_name">Dog name</string>
+    <string name="dog_age">Dog Age</string>
+    <string name="dog_type">Dog type</string>
+    <string name="dog_color">Dog color</string>
+    <string name="dog_city">Choose city</string>
+    <string name="dog_district">Choose district</string>
+    <string name="phone_number">Phone number</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="signup_text">Not a member? click here to sign-up</string>
+    <string name="wrong_credentials">Wrong email or password</string>
+    <string name="signup_failed">Could not Sign-up, Please try again later</string>
+    <string name="signup_details_error">"Error: Password length must be 6 to 12 characters, display name         must contain only letters and digits, email address must be valid.     "</string>
+
+    <string-array name="dog_type_list">
+        <item>@string/dog_type</item>
+        <item>@string/alaskan_malamute</item>
+        <item>@string/alaskan_klee_kais</item>
+        <item>@string/amstaff</item>
+        <item>@string/american_bulldog</item>
+        <item>@string/american_eskimos</item>
+        <item>@string/american_pit_bull_terriers</item>
+        <item>@string/afghan_hounds</item>
+        <item>@string/affenpinschers</item>
+        <item>@string/japanis_akita</item>
+        <item>@string/basset_hound</item>
+        <item>@string/bourier_des_flander</item>
+        <item>@string/english_bulldog</item>
+        <item>@string/french_bulldogs</item>
+        <item>@string/bull_terriers</item>
+        <item>@string/bullmastiff</item>
+        <item>@string/boston_terriers</item>
+        <item>@string/beauceron</item>
+        <item>@string/boxer</item>
+        <item>@string/beagle</item>
+        <item>@string/bichon_frises</item>
+        <item>@string/bloodhounds</item>
+        <item>@string/basenji</item>
+        <item>@string/brittany</item>
+        <item>@string/bernese_mountain_dog</item>
+        <item>@string/golden_retriever</item>
+        <item>@string/brussels_griffon</item>
+        <item>@string/dogue_de_bordeauxs</item>
+        <item>@string/siberian_huskys</item>
+        <item>@string/west_highland_white_terrier</item>
+        <item>@string/tibetan_terrier</item>
+        <item>@string/black_russian_terriers</item>
+        <item>@string/yorkshire_terriers</item>
+        <item>@string/canaan</item>
+        <item>@string/old_english_sheep</item>
+        <item>@string/labrador_retriever</item>
+        <item>@string/american_water_spaniel</item>
+        <item>@string/saint_bernard</item>
+        <item>@string/samoyed</item>
+        <item>@string/saluki</item>
+        <item>@string/english_setter</item>
+        <item>@string/chinese_crested</item>
+        <item>@string/papillon</item>
+        <item>@string/pug</item>
+        <item>@string/pincher</item>
+        <item>@string/chesapeake_bay_retriever</item>
+        <item>@string/japanese_chins</item>
+        <item>@string/chihuahua</item>
+        <item>@string/chow_chow</item>
+        <item>@string/australian_kelpie</item>
+        <item>@string/cocker_spaniel</item>
+        <item>@string/breaded_collie</item>
+        <item>@string/short_hair_collie</item>
+        <item>@string/coton_de_tulears</item>
+        <item>@string/cavalier_king_charles_spaniel</item>
+        <item>@string/cairn_terriers</item>
+        <item>@string/cana_corso</item>
+        <item>@string/rhodesian_ridgebacks</item>
+        <item>@string/flat_couted_retriver</item>
+        <item>@string/caucasian_ovcharka</item>
+        <item>@string/german_shepherd</item>
+        <item>@string/belgian_malinois</item>
+        <item>@string/anatolian_shepherd</item>
+        <item>@string/australian_shepherds</item>
+        <item>@string/rottweiler</item>
+        <item>@string/shih_tzu</item>
+        <item>@string/shiba_inu</item>
+        <item>@string/shikoku</item>
+        <item>@string/shetland_sheepdogs</item>
+        <item>@string/german_spitz</item>
+        <item>@string/chinese_shar_peis</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="dog_color_list">
+        <item>@string/dog_color</item>
+        <item>@string/black</item>
+        <item>@string/white</item>
+        <item>@string/grey</item>
+        <item>@string/brown</item>
+        <item>@string/beige</item>
+        <item>@string/black_and_white</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="dog_age_years_list">
+        <item>@string/years</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="dog_age_years_list_search">
+        <item>@string/max_years_age</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="dog_age_months_list">
+        <item>@string/months</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="dog_district_entries_list">
+        <item>@string/dog_district</item>
+        <item>@string/northern_district</item>
+        <item>@string/jerusalem_district</item>
+        <item>@string/central_district</item>
+        <item>@string/southern_district</item>
+    </string-array>
+
+    <string-array name="absolute_districts">
+        <item>@string/northern_district</item>
+        <item>@string/jerusalem_district</item>
+        <item>@string/central_district</item>
+        <item>@string/southern_district</item>
+    </string-array>
+
+    <string-array name="dog_district_entries_list_search">
+        <item>@string/district</item>
+        <item>@string/northern_district</item>
+        <item>@string/jerusalem_district</item>
+        <item>@string/central_district</item>
+        <item>@string/southern_district</item>
+    </string-array>
+
+    <string-array name="dog_default_district_list">
+        <item>@string/dog_city</item>
+    </string-array>
+
+    <string-array name="dog_northern_district_list">
+        <item>@string/dog_city</item>
+        <item>@string/nazareth</item>
+        <item>@string/nahariyya</item>
+        <item>@string/afula</item>
+        <item>@string/akko</item>
+        <item>@string/karmiel</item>
+        <item>@string/tiberias</item>
+        <item>@string/shefar_am</item>
+        <item>@string/zefat</item>
+        <item>@string/migdal_haemek</item>
+        <item>@string/kiryat_shmona</item>
+        <item>@string/yokneam_illit</item>
+        <item>@string/beit_shean</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="dog_jerusalem_district_list">
+        <item>@string/dog_city</item>
+        <item>@string/jerusalem</item>
+        <item>@string/beit_shemesh</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="dog_central_district_list">
+        <item>@string/dog_city</item>
+        <item>@string/tel_aviv_yafo</item>
+        <item>@string/rishon_lezion</item>
+        <item>@string/petah_tikva</item>
+        <item>@string/netanya</item>
+        <item>@string/bnei_brak</item>
+        <item>@string/holon</item>
+        <item>@string/ramat_gan</item>
+        <item>@string/rehovot</item>
+        <item>@string/bat_yam</item>
+        <item>@string/kfar_saba</item>
+        <item>@string/herzliya</item>
+        <item>@string/modiin_maccabim_reut</item>
+        <item>@string/lod</item>
+        <item>@string/ramla</item>
+        <item>@string/raannana</item>
+        <item>@string/hod_hasharon</item>
+        <item>@string/givatayim</item>
+        <item>@string/rosh_haayin</item>
+        <item>@string/ness_ziona</item>
+        <item>@string/elad</item>
+        <item>@string/ramat_hasharon</item>
+        <item>@string/yavne</item>
+        <item>@string/kiryat_ono</item>
+        <item>@string/or_yehuda</item>
+        <item>@string/givat_shmuel</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="dog_southern_district_list">
+        <item>@string/dog_city</item>
+        <item>@string/ashdod</item>
+        <item>@string/beer_sheva</item>
+        <item>@string/ashkelon</item>
+        <item>@string/rahat</item>
+        <item>@string/kiryat_gat</item>
+        <item>@string/eilat</item>
+        <item>@string/netivot</item>
+        <item>@string/dimona</item>
+        <item>@string/ofakim</item>
+        <item>@string/arad</item>
+        <item>@string/sderot</item>
+        <item>@string/kiryat_malakhi</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string name="alaskan_malamute">Alaskan Malamute</string>
+    <string name="alaskan_klee_kais">Alaskan Klee kais</string>
+    <string name="amstaff">Amstaff</string>
+    <string name="american_bulldog">American Bulldog</string>
+    <string name="american_eskimos">American Eskimos</string>
+    <string name="american_pit_bull_terriers">American Pit Bull Terriers</string>
+    <string name="afghan_hounds">Afghan Hounds</string>
+    <string name="affenpinschers">Affenpinschers</string>
+    <string name="japanis_akita">Japanis Akita</string>
+    <string name="basset_hound">Basset Hound</string>
+    <string name="bourier_des_flander">Bourier Des Flander</string>
+    <string name="english_bulldog">English Bulldog</string>
+    <string name="french_bulldogs">French Bulldogs</string>
+    <string name="bull_terriers">Bull Terriers</string>
+    <string name="bullmastiff">Bullmastiff</string>
+    <string name="boston_terriers">Boston Terriers</string>
+    <string name="beauceron">Beauceron</string>
+    <string name="boxer">Boxer</string>
+    <string name="beagle">Beagle</string>
+    <string name="bichon_frises">Bichon Frises</string>
+    <string name="bloodhounds">Bloodhounds</string>
+    <string name="basenji">Basenji</string>
+    <string name="brittany">Brittany</string>
+    <string name="bernese_mountain_dog">Bernese Mountain</string>
+    <string name="golden_retriever">Golden Retriever</string>
+    <string name="brussels_griffon">Brussels Griffon</string>
+    <string name="dogue_de_bordeauxs">Dogue de Bordeauxs</string>
+    <string name="siberian_huskys">Siberian Huskys</string>
+    <string name="west_highland_white_terrier">West Highland White Terrier</string>
+    <string name="tibetan_terrier">Tibetan Terrier</string>
+    <string name="black_russian_terriers">Black Russian Terriers</string>
+    <string name="yorkshire_terriers">Yorkshire Terriers</string>
+    <string name="canaan">Canaan</string>
+    <string name="old_english_sheep">Old English Sheep</string>
+    <string name="labrador_retriever">Labrador Retriever</string>
+    <string name="american_water_spaniel">American Water Spaniel</string>
+    <string name="saint_bernard">Saint Bernard</string>
+    <string name="samoyed">Samoyed</string>
+    <string name="saluki">Saluki</string>
+    <string name="english_setter">English Setter</string>
+    <string name="chinese_crested">Chinese Crested</string>
+    <string name="papillon">Papillon</string>
+    <string name="pug">Pug</string>
+    <string name="pincher">Pincher</string>
+    <string name="chesapeake_bay_retriever">Chesapeake Bay Retriever</string>
+    <string name="japanese_chins">Japanese Chins</string>
+    <string name="chihuahua">Chihuahua</string>
+    <string name="chow_chow">Chow Chow</string>
+    <string name="australian_kelpie">Australian Kelpie</string>
+    <string name="cocker_spaniel">Cocker Spaniel</string>
+    <string name="breaded_collie">Breaded Collie</string>
+    <string name="short_hair_collie">Short Hair Collie</string>
+    <string name="coton_de_tulears">Coton De Tulears</string>
+    <string name="cavalier_king_charles_spaniel">Cavalier King Charles Spaniel</string>
+    <string name="cairn_terriers">Cairn Terriers</string>
+    <string name="cana_corso">Cana Corso</string>
+    <string name="rhodesian_ridgebacks">Rhodesian Ridgebacks</string>
+    <string name="flat_couted_retriver">Flat Couted Retriver</string>
+    <string name="caucasian_ovcharka">Caucasian Ovcharka</string>
+    <string name="german_shepherd">German Shepherd</string>
+    <string name="belgian_malinois">Belgian Malinois</string>
+    <string name="anatolian_shepherd">Anatolian Shepherd</string>
+    <string name="australian_shepherds">Australian Shepherds</string>
+    <string name="rottweiler">Rottweiler</string>
+    <string name="shih_tzu">Shih Tzu</string>
+    <string name="shiba_inu">Shiba Inu</string>
+    <string name="shikoku">Shikoku</string>
+    <string name="shetland_sheepdogs">Shetland Sheepdogs</string>
+    <string name="german_spitz">German Spitz</string>
+    <string name="japanese_spitz">Japanese Spitz</string>
+    <string name="chinese_shar_peis">Chinese Shar Peis</string>
+    <string name="months">Choose months</string>
+    <string name="years">Choose years</string>
+    <string name="other">Other</string>
+    <string name="northern_district">Northern district</string>
+    <string name="jerusalem_district">Jerusalem district</string>
+    <string name="central_district">Central and Tel-Aviv district</string>
+    <string name="southern_district">Southern district</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="grey">Grey</string>
+    <string name="brown">Brown</string>
+    <string name="beige">Beige</string>
+    <string name="black_and_white">Black and white</string>
+    <string name="jerusalem">Jerusalem</string>
+    <string name="beit_shemesh">Beit Shemesh</string>
+    <string name="tel_aviv_yafo">Tel Aviv-Yafo</string>
+    <string name="rishon_lezion">Rishon Lezion</string>
+    <string name="petah_tikva">Petah Tikva</string>
+    <string name="netanya">Netanya</string>
+    <string name="bnei_brak">Bnei Brak</string>
+    <string name="holon">Holon</string>
+    <string name="ramat_gan">Ramat Gan</string>
+    <string name="rehovot">Rehovot</string>
+    <string name="bat_yam">Bat Yam</string>
+    <string name="kfar_saba">Kfar Saba</string>
+    <string name="herzliya">Herzliya</string>
+    <string name="modiin_maccabim_reut">Modi\'in-Maccabim-Re\'ut</string>
+    <string name="lod">Lod</string>
+    <string name="ramla">Ramla</string>
+    <string name="raannana">Ra\'annana</string>
+    <string name="hod_hasharon">Hod HaSharon</string>
+    <string name="givatayim">G\'ivatayim</string>
+    <string name="rosh_haayin">Rosh HaAyin</string>
+    <string name="ness_ziona">Ness Ziona</string>
+    <string name="elad">Elad</string>
+    <string name="ramat_hasharon">Ramat HaSharon</string>
+    <string name="yavne">Yavne</string>
+    <string name="kiryat_ono">Kiryat Ono</string>
+    <string name="or_yehuda">Or Yehuda</string>
+    <string name="givat_shmuel">Giv\'at Shmuel</string>
+    <string name="nazareth">Nazareth</string>
+    <string name="nahariyya">Nahariyya</string>
+    <string name="afula">Afula</string>
+    <string name="akko">Akko</string>
+    <string name="karmiel">Karmiel</string>
+    <string name="tiberias">Tiberias</string>
+    <string name="shefar_am">Shefar Am</string>
+    <string name="zefat">Zefat</string>
+    <string name="migdal_haemek">Migdal Haemek</string>
+    <string name="kiryat_shmona">Kiryat Shmona</string>
+    <string name="yokneam_illit">Yokneam Illit</string>
+    <string name="beit_shean">Beit She\'an</string>
+    <string name="ashdod">Ashdod</string>
+    <string name="beer_sheva">Be\'er Sheva</string>
+    <string name="ashkelon">Ashkelon</string>
+    <string name="rahat">Rahat</string>
+    <string name="kiryat_gat">Kiryat Gat</string>
+    <string name="eilat">Eilat</string>
+    <string name="netivot">Netivot</string>
+    <string name="dimona">Dimona</string>
+    <string name="ofakim">Ofakim</string>
+    <string name="arad">Arad</string>
+    <string name="sderot">Sderot</string>
+    <string name="kiryat_malakhi">Kiryat Malakhi</string>
+    <string name="take_picture">Take picture</string>
+    <string name="upload_picture">Upload...</string>
+    <string name="pictures">Pictures</string>
+    <string name="add">Add</string>
+    <string name="small">Small</string>
+    <string name="normal">Normal</string>
+    <string name="big">Big</string>
+    <string name="dog_size">Dog size</string>
+    <string name="max_pictures_message">You can\'t add more pictures</string>
+    <string name="undo">Undo</string>
+    <string name="undo_message">You have returned to the initial state</string>
+    <string name="validate_detalis_message">Please make sure again you have entered all fields</string>
+    <string name="other_city">Enter city</string>
+    <string name="picture_assert_title">No picture added!</string>
+    <string name="picture_assert_message">Not adding a dog picture, do you want to continue anyway?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="channel_name">Important Notifications</string>
+    <string name="post_ad_success">Your ad has been posted</string>
+    <string name="post_ad_fail">An error occurred, please try again later</string>
+    <string name="note">Note</string>
+    <string name="ok">OK</string>
+    <string name="already_posting">You are already posting, please try again later.</string>
+    <string name="my_ads">My ads</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="district">District</string>
+    <string name="max_years_age">Max Age (years)</string>
+    <string name="clean">Clean</string>
+    <string name="sign_out_title">Sign out?</string>
+    <string name="sign_out_message">Are you sure you want to sign out?</string>
+    <string name="update_changes">Update changes</string>
+    <string name="contact_phone">Contact phone</string>
+    <string name="contact_info">Contact</string>
+    <string name="name_info">Dog owner:</string>
+    <string name="phone_number_info">Phone number:</string>
+    <string name="dog_information_Info">Dog\'s information</string>
+    <string name="title_info">Title:</string>
+    <string name="dog_type_info">Type:</string>
+    <string name="dog_color_info">Color:</string>
+    <string name="dog_size_info">Size:</string>
+    <string name="dog_age_info">Age:</string>
+    <string name="dog_district_info">District:</string>
+    <string name="dog_city_info">City:</string>
+    <string name="and">and</string>
+    <string name="years_info">years</string>
+    <string name="months_info">months</string>
+    <string name="free_text_info">Free text:</string>
+    <string name="posting_title">Posting..</string>
+    <string name="posting_text">Please wait while we are posting your ad</string>
+    <string name="fcm_notif_title">We have found your dream dog!</string>
+    <string name="fcm_notif_text">Catch it while it is not too late!</string>
+    <string name="enable_notif">Enable Search Notifications</string>
+    <string name="enable_notif_text">Turn on to enable push-notifications</string>
+    <string name="updating">Changes saved successfully</string>
+    <string name="no_photos_alert">You did not attached any photo, are you sure about that?</string>
+    <string name="welcome">Welcome,</string>
+    <string name="register_title">Sign up</string>
+    <string name="menu_privacy_and_security">Privacy and security</string>
+    <string name="change_password_title">Change password</string>
+    <string name="change_password_summary">Change your password frequently to keep it private</string>
+    <string name="password_changed">Password changed successfully!</string>
+    <string name="change_password_details_error">The passwords must be equal and must be 6 to 12 characters</string>
+    <string name="current_password">Current Password</string>
+    <string name="incorrect_current_password">Incorrect current password!</string>
+    <string name="error_password">Error, password not updated, please try again!</string>
+    <string name="call">Call now</string>
+    <string name="add_an_ad">Add an ad</string>
+    <string name="edit_an_ad">Edit an ad</string>
+    <string name="picture_error">To take a photo you must give permissions</string>
+    <string name="delete_message">Are you sure you want to delete the picture?</string>
+    <string name="delete_title">Delete?</string>
+    <string name="delete_ad">Are you sure you want to delete the ad?</string>
+    <string name="hi">"Hi, "</string>
+    <string name="login">Login</string>
+</resources>

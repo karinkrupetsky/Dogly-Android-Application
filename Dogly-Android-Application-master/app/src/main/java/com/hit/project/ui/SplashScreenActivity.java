@@ -1,0 +1,45 @@
+package com.hit.project.ui;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.hit.project.R;
+
+
+public class SplashScreenActivity extends AppCompatActivity
+{
+    private FirebaseAuth auth;
+    private Handler handler;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_opening);
+        auth = FirebaseAuth.getInstance();
+        handler = new Handler();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        handler.postDelayed(() -> {
+            if(auth.getCurrentUser() != null)
+                startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
+            else
+                startActivity(new Intent(SplashScreenActivity.this, SignInUpActivity.class));
+
+            finish();
+        }, 3000);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeCallbacksAndMessages(null);
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:title="@string/menu_notif_settings">
+
+        <SwitchPreferenceCompat
+            android:key="parentSwitch"
+            android:title="@string/enable_notif"
+            android:summary="@string/enable_notif_text"
+            android:defaultValue="false"/>
+
+        <ListPreference
+            android:key="dogType"
+            android:title="@string/dog_type"
+            app:useSimpleSummaryProvider="true"
+            android:entries="@array/dog_type_list"
+            app:entryValues="@array/dog_type_list"
+            android:dialogTitle="@string/dog_type"
+            android:dependency="parentSwitch"/>
+
+        <SeekBarPreference
+            android:key="dogAge"
+            android:title="@string/max_years_age"
+            android:max="19"
+            android:defaultValue="10"
+            app:showSeekBarValue="true"
+            android:dependency="parentSwitch"/>
+
+        <DropDownPreference
+            android:key="district"
+            android:title="@string/district"
+            android:entries="@array/absolute_districts"
+            android:entryValues="@array/absolute_districts"
+            app:useSimpleSummaryProvider="true"
+            android:dependency="parentSwitch"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
